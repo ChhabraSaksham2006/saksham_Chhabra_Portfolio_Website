@@ -33,7 +33,14 @@ const Hero = () => {
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              <a
+                 href="/Saksham_Chhabra_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Saksham_Chhabra_Resume.pdf"
+                >
+                Download Resume
+                </a>
             </Button>
             
             <Button 
@@ -47,10 +54,10 @@ const Hero = () => {
           </div>
           
           <div className="flex justify-center gap-6 animate-fade-in animation-delay-1000">
-            <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors duration-300 hover:scale-110 transform">
+            <a href="https://github.com/ChhabraSaksham2006"target="_blank" className="text-slate-600 hover:text-blue-600 transition-colors duration-300 hover:scale-110 transform">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors duration-300 hover:scale-110 transform">
+            <a href="https://www.linkedin.com/in/saksham-chhabra-342ba82b9/" target="_blank" className="text-slate-600 hover:text-blue-600 transition-colors duration-300 hover:scale-110 transform">
               <Linkedin className="h-6 w-6" />
             </a>
             <a href="mailto:ccsaksham2006@gmail.com" className="text-slate-600 hover:text-blue-600 transition-colors duration-300 hover:scale-110 transform">

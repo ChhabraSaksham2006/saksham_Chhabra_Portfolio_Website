@@ -30,7 +30,7 @@ const Projects = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">
               <Github className="mr-2 h-5 w-5" />
-              View GitHub
+              <a href="https://github.com/ChhabraSaksham2006" target="_blank">View GitHub</a>
             </Button>
             <Button variant="outline" className="border-blue-200 text-blue-700 hover:bg-blue-50">
               <ExternalLink className="mr-2 h-5 w-5" />

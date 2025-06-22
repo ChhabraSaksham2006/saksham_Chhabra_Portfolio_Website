@@ -13,13 +13,13 @@ const Footer = () => {
           
           <div className="flex justify-center gap-6 mb-8">
             <a 
-              href="#" 
+              href="https://github.com/ChhabraSaksham2006" target="_blank" 
               className="text-slate-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"
             >
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/feed/" target="_blank"
               className="text-slate-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"
             >
               <Linkedin className="h-6 w-6" />
@@ -37,7 +37,7 @@ const Footer = () => {
               Made with <Heart className="h-4 w-4 text-red-500" /> by Saksham Chhabra
             </p>
             <p className="text-slate-500 text-sm mt-2">
-              © 2024 All rights reserved.
+              © 2025 All rights reserved.
             </p>
           </div>
         </div>
