@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# Saksham Chhabra's Portfolio Website
 
-## Project info
+This repository contains the source code for my personal portfolio website. It is designed to showcase my skills, projects, education, and achievements. The website is built with modern web technologies, featuring a clean design, smooth animations, and a fully responsive layout.
 
-**URL**: https://lovable.dev/projects/3447b0d1-fbd0-43bb-8423-1e683f274fde
+## ✨ Features
 
-## How can I edit this code?
+- **Hero Section:** A captivating introduction with a dynamic title and social links.
+- **About Me:** A detailed summary of my background and passion for technology.
+- **Education:** A timeline of my academic journey with grades and progress indicators.
+- **Skills:** An organized showcase of my technical skills, categorized and visualized with proficiency bars.
+- **Achievements:** Highlights of my key accomplishments, including competitive exam results and hackathon wins.
+- **Projects:** A dedicated section to showcase my work (currently showing a preview of what's to come).
+- **Contact Form:** An interactive form for visitors to get in touch.
+- **Fully Responsive:** Adapts seamlessly to all screen sizes, from mobile to desktop.
+- **Resume Download:** A direct link to download my latest resume.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Framework:** React
+- **Language:** TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Library:** shadcn/ui
+- **Routing:** React Router
+- **Animations:** `tailwindcss-animate`
+- **Forms:** React Hook Form
+- **Data Fetching:** TanStack Query
+- **Notifications:** Radix Toast & Sonner
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3447b0d1-fbd0-43bb-8423-1e683f274fde) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+Follow these instructions to set up and run the project locally.
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v18 or later recommeded)
+- npm (or your preferred package manager like yarn or pnpm)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation & Setup
 
-Follow these steps:
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ChhabraSaksham2006/saksham_chhabra_portfolio_website.git
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2.  **Navigate to the project directory:**
+    ```bash
+    cd saksham_chhabra_portfolio_website
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+5.  Open your browser and navigate to `http://localhost:8080`.
 
-**Edit a file directly in GitHub**
+### Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project includes the following scripts:
 
-**Use GitHub Codespaces**
+- `npm run dev`: Starts the development server with hot-reloading.
+- `npm run build`: Creates a production-ready build of the application.
+- `npm run lint`: Lints the source code using ESLint to check for errors.
+- `npm run preview`: Starts a local server to preview the production build.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📫 Contact
 
-## What technologies are used for this project?
+Feel free to connect or reach out!
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3447b0d1-fbd0-43bb-8423-1e683f274fde) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **LinkedIn:** [Saksham Chhabra](https://www.linkedin.com/in/saksham-chhabra-342ba82b9/)
+- **Email:** <ccsaksham2006@gmail.com>
+- **GitHub:** [@ChhabraSaksham2006](https://github.com/ChhabraSaksham2006)
