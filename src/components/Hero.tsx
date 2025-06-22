@@ -34,7 +34,7 @@ const Hero = () => {
             >
               <Download className="mr-2 h-5 w-5" />
               <a
-                 href="Saksham_Chhabra_Resume.pdf"
+                 href="Saksham_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Saksham_Chhabra_Resume.pdf"
