@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: process.env.VERCEL ? '/' : '/saksham_Chhabra_Portfolio_Website/',
+  base: '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
